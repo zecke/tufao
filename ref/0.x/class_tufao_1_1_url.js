@@ -12,7 +12,6 @@ var class_tufao_1_1_url =
     [ "port", "class_tufao_1_1_url.html#ab97b5970c670b2bba98d60f42811ebe6", null ],
     [ "query", "class_tufao_1_1_url.html#a9f4f405d0bc41a4b78d3419054138bde", null ],
     [ "scheme", "class_tufao_1_1_url.html#a49353f8afb0d04cb3410d0b60471b059", null ],
-    [ "url", "class_tufao_1_1_url.html#a0cd741c6c8666a4baf43c5a0e6a0251c", null ],
     [ "userinfo", "class_tufao_1_1_url.html#a84f3bc6cf47945d68869fff92721acd7", null ],
     [ "username", "class_tufao_1_1_url.html#a75e8309a1768bd369ccbd9eb4877969b", null ]
 ];

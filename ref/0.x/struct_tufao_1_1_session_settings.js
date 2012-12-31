@@ -1,7 +1,6 @@
 var struct_tufao_1_1_session_settings =
 [
     [ "cookie", "struct_tufao_1_1_session_settings.html#a848609353a22b61360492c9fedc5fd85", null ],
-    [ "cookie", "struct_tufao_1_1_session_settings.html#a8c0382c0dde45b78b19cc4e01ac22a78", null ],
     [ "domain", "struct_tufao_1_1_session_settings.html#ad856f29e9895dcbb49ba04067e75fd68", null ],
     [ "httpOnly", "struct_tufao_1_1_session_settings.html#a6e9023370427916e0c69b1ed9417feac", null ],
     [ "name", "struct_tufao_1_1_session_settings.html#a7d299b59920fe4ad325493326274d6d1", null ],

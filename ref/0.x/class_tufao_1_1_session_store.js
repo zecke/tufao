@@ -2,7 +2,6 @@ var class_tufao_1_1_session_store =
 [
     [ "SessionStore", "class_tufao_1_1_session_store.html#a6579b0f8477362b007c82446be40b93e", null ],
     [ "~SessionStore", "class_tufao_1_1_session_store.html#ab7b527b9674671d746a7ad402c48073f", null ],
-    [ "defaultSettings", "class_tufao_1_1_session_store.html#a3dc582d27025228db578e82ba1bc37f8", null ],
     [ "hasProperty", "class_tufao_1_1_session_store.html#abe5006c78728899d856c70bea12ea27e", null ],
     [ "hasSession", "class_tufao_1_1_session_store.html#ad89b53102b7f4af0724df75de1b674c6", null ],
     [ "properties", "class_tufao_1_1_session_store.html#a16bc3c5c767572ffb42d24be5d8b118d", null ],

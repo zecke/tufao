@@ -4,7 +4,7 @@ var namespace_tufao =
     [ "AbstractHttpServerRequestHandler", "class_tufao_1_1_abstract_http_server_request_handler.html", "class_tufao_1_1_abstract_http_server_request_handler" ],
     [ "AbstractHttpServerRequestHandlerFactory", "class_tufao_1_1_abstract_http_server_request_handler_factory.html", "class_tufao_1_1_abstract_http_server_request_handler_factory" ],
     [ "AbstractMessageSocket", "class_tufao_1_1_abstract_message_socket.html", "class_tufao_1_1_abstract_message_socket" ],
-    [ "Headers", "struct_tufao_1_1_headers.html", "struct_tufao_1_1_headers" ],
+    [ "Headers", "struct_tufao_1_1_headers.html", null ],
     [ "HttpFileServer", "class_tufao_1_1_http_file_server.html", "class_tufao_1_1_http_file_server" ],
     [ "HttpPluginServer", "class_tufao_1_1_http_plugin_server.html", "class_tufao_1_1_http_plugin_server" ],
     [ "HttpServer", "class_tufao_1_1_http_server.html", "class_tufao_1_1_http_server" ],

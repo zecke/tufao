@@ -30,10 +30,10 @@ var class_tufao_1_1_web_socket =
     [ "close", "class_tufao_1_1_web_socket.html#ac5e3bc35bd4c626b44829a7c80c96f06", null ],
     [ "connectToHost", "class_tufao_1_1_web_socket.html#a21d6e347b17b28e2a7dd4d1eeb34372c", null ],
     [ "connectToHost", "class_tufao_1_1_web_socket.html#ad2933a392b1da5147f3d2e2ae8e8861a", null ],
-    [ "connectToHost", "class_tufao_1_1_web_socket.html#a084b7d733b57114c41f176453b457e83", null ],
-    [ "connectToHost", "class_tufao_1_1_web_socket.html#a041736f8b64e2d399941ea7fd7d57247", null ],
-    [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#aad5cd923efe0337db7eb79afa932f632", null ],
-    [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#a21194806ba942da925b06e0a02502677", null ],
+    [ "connectToHost", "class_tufao_1_1_web_socket.html#adf4a5255f5e1478a4d231544dbe9f9d7", null ],
+    [ "connectToHost", "class_tufao_1_1_web_socket.html#aba220de8397177bb45461bbdc797a50b", null ],
+    [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#a4f7f5282ccbe8a8b4c7a70a14a114bfc", null ],
+    [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#a6c404218cb22502bfe01115aed655763", null ],
     [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#a6ca7eaee06859ab9a2c71de449d40185", null ],
     [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#a9370721d417acebaa1b07824ffcc9bb7", null ],
     [ "error", "class_tufao_1_1_web_socket.html#ad791fd5a47b8fd93f66060ca449a1f68", null ],
@@ -45,6 +45,5 @@ var class_tufao_1_1_web_socket =
     [ "sendMessage", "class_tufao_1_1_web_socket.html#a142a50677a54ad9e54b2d1f43abb3bbd", null ],
     [ "sendUtf8Message", "class_tufao_1_1_web_socket.html#afe48d38740f0c00d041854420c9bc5bf", null ],
     [ "setMessagesType", "class_tufao_1_1_web_socket.html#ac41f6f6951f38f8ddffea41f4fa5fdfb", null ],
-    [ "startServerHandshake", "class_tufao_1_1_web_socket.html#a60dd2ccaeb7c7c77b0fa0df900722c6c", null ],
-    [ "supportedProtocols", "class_tufao_1_1_web_socket.html#a51d230b63de42c04aff484b5758891d6", null ]
+    [ "startServerHandshake", "class_tufao_1_1_web_socket.html#a60dd2ccaeb7c7c77b0fa0df900722c6c", null ]
 ];

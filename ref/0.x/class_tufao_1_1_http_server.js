@@ -5,7 +5,7 @@ var class_tufao_1_1_http_server =
     [ "checkContinue", "class_tufao_1_1_http_server.html#a6e83cecc829127a9922a2d5afcf99337", null ],
     [ "close", "class_tufao_1_1_http_server.html#a0c18ea2191436f1ff3e0fc9893d62737", null ],
     [ "handleConnection", "class_tufao_1_1_http_server.html#af3a58d61091dfc324382543968a8f4d4", null ],
-    [ "incomingConnection", "class_tufao_1_1_http_server.html#a1581ac450d560c801891261b4a3ff4c3", null ],
+    [ "incomingConnection", "class_tufao_1_1_http_server.html#a682173e7b4cdf472f9f22bcfb16c60f9", null ],
     [ "isListening", "class_tufao_1_1_http_server.html#a37080a6e41bebd2a328ebfb665bd4f11", null ],
     [ "listen", "class_tufao_1_1_http_server.html#a53ebaa69281886b1b8c2b535aaec8cd9", null ],
     [ "requestReady", "class_tufao_1_1_http_server.html#a4e2132f99a108a3a1638c38e1695f12c", null ],
