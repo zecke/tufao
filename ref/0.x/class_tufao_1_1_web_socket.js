@@ -39,6 +39,8 @@ var class_tufao_1_1_web_socket =
     [ "error", "class_tufao_1_1_web_socket.html#ad791fd5a47b8fd93f66060ca449a1f68", null ],
     [ "errorString", "class_tufao_1_1_web_socket.html#a4d59e8fd1c25def16975cd8a43b9fe2e", null ],
     [ "messagesType", "class_tufao_1_1_web_socket.html#ac9cbd15a2304ce7247c12cb1ede6ec86", null ],
+    [ "peerAddress", "class_tufao_1_1_web_socket.html#ad5ea5e9a07a68eb413f6e406e9d5750e", null ],
+    [ "peerPort", "class_tufao_1_1_web_socket.html#a1be2c0e9ddc2a0e18cc82335fd9bdf37", null ],
     [ "ping", "class_tufao_1_1_web_socket.html#a4795778516b1370cf8d50ae0acf9bc67", null ],
     [ "pong", "class_tufao_1_1_web_socket.html#a38dd32a198b69b1754fbc8e6a5b10317", null ],
     [ "sendBinaryMessage", "class_tufao_1_1_web_socket.html#a99f63d9b119089dcecabae8c4c42c27a", null ],
