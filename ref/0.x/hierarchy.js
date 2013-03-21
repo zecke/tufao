@@ -12,7 +12,11 @@ var hierarchy =
       [ "Tufao::AbstractHttpServerRequestHandler", "class_tufao_1_1_abstract_http_server_request_handler.html", [
         [ "Tufao::HttpFileServer", "class_tufao_1_1_http_file_server.html", null ],
         [ "Tufao::HttpPluginServer", "class_tufao_1_1_http_plugin_server.html", null ],
-        [ "Tufao::HttpServerRequestRouter", "class_tufao_1_1_http_server_request_router.html", null ]
+        [ "Tufao::HttpServerRequestRouter", "class_tufao_1_1_http_server_request_router.html", null ],
+        [ "Tufao::UrlRewriterHandler", "class_tufao_1_1_url_rewriter_handler.html", null ]
+      ] ],
+      [ "Tufao::AbstractHttpUpgradeHandler", "class_tufao_1_1_abstract_http_upgrade_handler.html", [
+        [ "Tufao::HttpUpgradeRouter", "class_tufao_1_1_http_upgrade_router.html", null ]
       ] ],
       [ "Tufao::AbstractMessageSocket", "class_tufao_1_1_abstract_message_socket.html", [
         [ "Tufao::WebSocket", "class_tufao_1_1_web_socket.html", null ]

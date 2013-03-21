@@ -10,6 +10,7 @@ var class_tufao_1_1_http_server =
     [ "listen", "class_tufao_1_1_http_server.html#a53ebaa69281886b1b8c2b535aaec8cd9", null ],
     [ "requestReady", "class_tufao_1_1_http_server.html#a4e2132f99a108a3a1638c38e1695f12c", null ],
     [ "serverPort", "class_tufao_1_1_http_server.html#a9757aa7003eb8b32f8bd7d42d4d506fb", null ],
+    [ "setHttpUpgradeRouter", "class_tufao_1_1_http_server.html#a5c8a225fa4f48b7c03ec6095f48d36b1", null ],
     [ "setTimeout", "class_tufao_1_1_http_server.html#a87546873151939de576a73f65feb6500", null ],
     [ "timeout", "class_tufao_1_1_http_server.html#a812f80b5251faf8c12692a43b5218b06", null ],
     [ "upgrade", "class_tufao_1_1_http_server.html#a955e6bd2c8ba908898529b858cb872de", null ]

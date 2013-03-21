@@ -17,6 +17,7 @@ var class_tufao_1_1_http_server_request =
     [ "ready", "class_tufao_1_1_http_server_request.html#ab62316e157562eb20c4e38eca0679065", null ],
     [ "responseOptions", "class_tufao_1_1_http_server_request.html#aa13180cbf63e3d7d2d4ae2e6a746a605", null ],
     [ "setTimeout", "class_tufao_1_1_http_server_request.html#a954a4fd7da320bcda28656558af0bb74", null ],
+    [ "setUrl", "class_tufao_1_1_http_server_request.html#af1ea2c9e9483c5e2cf332ca68e84110b", null ],
     [ "socket", "class_tufao_1_1_http_server_request.html#a36a51a6e57571183dc94ceae9923d576", null ],
     [ "timeout", "class_tufao_1_1_http_server_request.html#a16295fc0ac6fff3fe317bc045b821228", null ],
     [ "trailers", "class_tufao_1_1_http_server_request.html#a14544cf194ba5e8e1253b39ddd5b3d30", null ],

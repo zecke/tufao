@@ -1,7 +1,7 @@
 var searchData=
 [
   ['checkcontinue',['checkContinue',['../class_tufao_1_1_http_server.html#a6e83cecc829127a9922a2d5afcf99337',1,'Tufao::HttpServer']]],
-  ['clear',['clear',['../class_tufao_1_1_http_server_request_router.html#a002a7834cdd7349efda8ef043a6236db',1,'Tufao::HttpServerRequestRouter']]],
+  ['clear',['clear',['../class_tufao_1_1_http_server_request_router.html#a002a7834cdd7349efda8ef043a6236db',1,'Tufao::HttpServerRequestRouter::clear()'],['../class_tufao_1_1_http_upgrade_router.html#a9aacbe250826c1df1ce6edd3e14bb833',1,'Tufao::HttpUpgradeRouter::clear()']]],
   ['close',['close',['../class_tufao_1_1_abstract_message_socket.html#a88c706807889fd77e346ef8c83020ec1',1,'Tufao::AbstractMessageSocket::close()'],['../class_tufao_1_1_http_server.html#a0c18ea2191436f1ff3e0fc9893d62737',1,'Tufao::HttpServer::close()'],['../class_tufao_1_1_http_server_request.html#a2b859563d0238ab869ca57190860c9ed',1,'Tufao::HttpServerRequest::close()']]],
   ['config',['config',['../class_tufao_1_1_http_plugin_server.html#a4c1c5e33bb60c966bb129d30b137aa8a',1,'Tufao::HttpPluginServer']]],
   ['connected',['connected',['../class_tufao_1_1_abstract_message_socket.html#ae00bd4bfd8b4be19028dcfa9d923aa7d',1,'Tufao::AbstractMessageSocket']]],

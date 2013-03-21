@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">tufao
-   &#160;<span id="projectnumber">0.5.0</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">An asynchronous web framework for C++ built on top of Qt</div>
   </td>
@@ -106,7 +106,8 @@ $(document).ready(function(){initNavTree('namespace_tufao.html','');});
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Tufao Namespace Reference</div>  </div>
 </div><!--header-->
@@ -128,6 +129,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_abstract_http_server_request_handler_factory.html">AbstractHttpServerRequestHandlerFactory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class provides an factory interface to create <a class="el" href="class_tufao_1_1_abstract_http_server_request_handler.html" title="This class provides an interface for HttpServerRequest handlers.">AbstractHttpServerRequestHandler</a> objects.  <a href="class_tufao_1_1_abstract_http_server_request_handler_factory.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_abstract_http_upgrade_handler.html">AbstractHttpUpgradeHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class provides an interface for HTTP upgrade handlers.  <a href="class_tufao_1_1_abstract_http_upgrade_handler.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_abstract_message_socket.html">AbstractMessageSocket</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="class_tufao_1_1_abstract_message_socket.html" title="The Tufao::AbstractMessageSocket class represents a socket that sends and receives messages...">Tufao::AbstractMessageSocket</a> class represents a socket that sends and receives messages.  <a href="class_tufao_1_1_abstract_message_socket.html#details">More...</a><br/></td></tr>
@@ -156,6 +160,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_https_server.html">HttpsServer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_tufao_1_1_https_server.html" title="Tufao::HttpsServer is a subclass of Tufao::HttpServer that provides secure communication with the cli...">Tufao::HttpsServer</a> is a subclass of <a class="el" href="class_tufao_1_1_http_server.html" title="The Tufao::HttpServer class provides an implementation of the HTTP protocol.">Tufao::HttpServer</a> that provides secure communication with the client.  <a href="class_tufao_1_1_https_server.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_http_upgrade_router.html">HttpUpgradeRouter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class provides a robust and high performance HTTP upgrade router.  <a href="class_tufao_1_1_http_upgrade_router.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_i_byte_array.html">IByteArray</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class provides a case insensitive QByteArray.  <a href="class_tufao_1_1_i_byte_array.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -174,9 +181,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_url.html">Url</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class provides a convenient interface for parsing URLs.  <a href="class_tufao_1_1_url.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_url_rewriter_handler.html">UrlRewriterHandler</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class provides a handler to internally (only seen by your application) rewrite the URL.  <a href="class_tufao_1_1_url_rewriter_handler.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_web_socket.html">WebSocket</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class represents a <a class="el" href="class_tufao_1_1_web_socket.html" title="This class represents a WebSocket connection.">WebSocket</a> connection.  <a href="class_tufao_1_1_web_socket.html#details">More...</a><br/></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ad173ffa8dc5034c4ee2dd44cfef1e22d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad173ffa8dc5034c4ee2dd44cfef1e22d"></a>
+TUFAO_EXPORT QDebug&#160;</td><td class="memItemRight" valign="bottom"><b>operator&lt;&lt;</b> (QDebug dbg, const <a class="el" href="struct_tufao_1_1_headers.html">Headers</a> &amp;headers)</td></tr>
+<tr class="separator:ad173ffa8dc5034c4ee2dd44cfef1e22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This is the namespace where all Tufão facilities are grouped. </p>
@@ -187,7 +203,7 @@ Classes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tufao.html">Tufao</a></li>
-    <li class="footer">Generated on Tue Mar 5 2013 12:42:32 for tufao by
+    <li class="footer">Generated on Thu Mar 21 2013 15:52:43 for tufao by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

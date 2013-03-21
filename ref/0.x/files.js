@@ -2,6 +2,7 @@ var files =
 [
     [ "abstracthttpserverrequesthandler.h", "abstracthttpserverrequesthandler_8h_source.html", null ],
     [ "abstracthttpserverrequesthandlerfactory.h", "abstracthttpserverrequesthandlerfactory_8h_source.html", null ],
+    [ "abstracthttpupgradehandler.h", "abstracthttpupgradehandler_8h_source.html", null ],
     [ "abstractmessagesocket.h", "abstractmessagesocket_8h_source.html", null ],
     [ "headers.h", "headers_8h_source.html", null ],
     [ "httpfileserver.h", "httpfileserver_8h_source.html", null ],
@@ -11,6 +12,7 @@ var files =
     [ "httpserverrequestrouter.h", "httpserverrequestrouter_8h_source.html", null ],
     [ "httpserverresponse.h", "httpserverresponse_8h_source.html", null ],
     [ "httpsserver.h", "httpsserver_8h_source.html", null ],
+    [ "httpupgraderouter.h", "httpupgraderouter_8h_source.html", null ],
     [ "ibytearray.h", "ibytearray_8h_source.html", null ],
     [ "main.h", "main_8h_source.html", null ],
     [ "pluginsystem.h", "pluginsystem_8h_source.html", null ],
@@ -21,5 +23,6 @@ var files =
     [ "simplesessionstore.h", "simplesessionstore_8h_source.html", null ],
     [ "tufao_global.h", "tufao__global_8h_source.html", null ],
     [ "url.h", "url_8h_source.html", null ],
+    [ "urlrewriterhandler.h", "urlrewriterhandler_8h_source.html", null ],
     [ "websocket.h", "websocket_8h_source.html", null ]
 ];

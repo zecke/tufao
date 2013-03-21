@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">tufao
-   &#160;<span id="projectnumber">0.5.0</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">An asynchronous web framework for C++ built on top of Qt</div>
   </td>
@@ -146,6 +146,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>AbstractHttpServerRequestHandler()
 : <a class="el" href="class_tufao_1_1_abstract_http_server_request_handler.html#a1ca70edb1388b128b5d6dcbb1b18f70d">Tufao::AbstractHttpServerRequestHandler</a>
 </li>
+<li>AbstractHttpUpgradeHandler()
+: <a class="el" href="class_tufao_1_1_abstract_http_upgrade_handler.html#a31c6af3d9a1f5d17c29d1ef81ffd3407">Tufao::AbstractHttpUpgradeHandler</a>
+</li>
 <li>AbstractMessageSocket()
 : <a class="el" href="class_tufao_1_1_abstract_message_socket.html#a929a8aa2439a54d563d88441a715737c">Tufao::AbstractMessageSocket</a>
 </li>
@@ -174,11 +177,12 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>clear()
 : <a class="el" href="class_tufao_1_1_http_server_request_router.html#a002a7834cdd7349efda8ef043a6236db">Tufao::HttpServerRequestRouter</a>
+, <a class="el" href="class_tufao_1_1_http_upgrade_router.html#a9aacbe250826c1df1ce6edd3e14bb833">Tufao::HttpUpgradeRouter</a>
 </li>
 <li>close()
-: <a class="el" href="class_tufao_1_1_http_server.html#a0c18ea2191436f1ff3e0fc9893d62737">Tufao::HttpServer</a>
+: <a class="el" href="class_tufao_1_1_abstract_message_socket.html#a88c706807889fd77e346ef8c83020ec1">Tufao::AbstractMessageSocket</a>
+, <a class="el" href="class_tufao_1_1_http_server.html#a0c18ea2191436f1ff3e0fc9893d62737">Tufao::HttpServer</a>
 , <a class="el" href="class_tufao_1_1_http_server_request.html#a2b859563d0238ab869ca57190860c9ed">Tufao::HttpServerRequest</a>
-, <a class="el" href="class_tufao_1_1_abstract_message_socket.html#a88c706807889fd77e346ef8c83020ec1">Tufao::AbstractMessageSocket</a>
 </li>
 <li>config()
 : <a class="el" href="class_tufao_1_1_http_plugin_server.html#a4c1c5e33bb60c966bb129d30b137aa8a">Tufao::HttpPluginServer</a>
@@ -256,9 +260,12 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>handleRequest()
 : <a class="el" href="class_tufao_1_1_abstract_http_server_request_handler.html#aed26ee697197d2b5b30d9eef26f08cdd">Tufao::AbstractHttpServerRequestHandler</a>
-, <a class="el" href="class_tufao_1_1_http_plugin_server.html#a98df13db29eba2bb8413b3c4a29149c9">Tufao::HttpPluginServer</a>
-, <a class="el" href="class_tufao_1_1_http_server_request_router.html#ae3ac45ccc4ad0561906bfb076e809cd0">Tufao::HttpServerRequestRouter</a>
 , <a class="el" href="class_tufao_1_1_http_file_server.html#a68f4d05db5bfdd4a6232ac1823165463">Tufao::HttpFileServer</a>
+, <a class="el" href="class_tufao_1_1_url_rewriter_handler.html#adb26c269af9c5d5fed0cf071c2881600">Tufao::UrlRewriterHandler</a>
+, <a class="el" href="class_tufao_1_1_http_plugin_server.html#a98df13db29eba2bb8413b3c4a29149c9">Tufao::HttpPluginServer</a>
+, <a class="el" href="class_tufao_1_1_abstract_http_upgrade_handler.html#a3bfcfac05d068077f5c9c02750338c55">Tufao::AbstractHttpUpgradeHandler</a>
+, <a class="el" href="class_tufao_1_1_http_server_request_router.html#ae3ac45ccc4ad0561906bfb076e809cd0">Tufao::HttpServerRequestRouter</a>
+, <a class="el" href="class_tufao_1_1_http_upgrade_router.html#aeef7c2a18704dc38e5dba0b043646bf1">Tufao::HttpUpgradeRouter</a>
 </li>
 <li>hasProperty()
 : <a class="el" href="class_tufao_1_1_session_store.html#abe5006c78728899d856c70bea12ea27e">Tufao::SessionStore</a>
@@ -272,8 +279,8 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="class_tufao_1_1_session.html#ad59875447ed7cf41a0f71c0f01406dfd">Tufao::Session</a>
 </li>
 <li>headers()
-: <a class="el" href="class_tufao_1_1_http_server_request.html#ab9e652128d66cf6e2650f79c93f753e5">Tufao::HttpServerRequest</a>
-, <a class="el" href="class_tufao_1_1_http_server_response.html#a82828ddcd97f9b7d1941284bdb0ec8e6">Tufao::HttpServerResponse</a>
+: <a class="el" href="class_tufao_1_1_http_server_response.html#a82828ddcd97f9b7d1941284bdb0ec8e6">Tufao::HttpServerResponse</a>
+, <a class="el" href="class_tufao_1_1_http_server_request.html#a8cb52b3ca55fa41a4472658fa17845f7">Tufao::HttpServerRequest</a>
 </li>
 <li>hostname()
 : <a class="el" href="class_tufao_1_1_url.html#aabd24507c805ce4a4ce7da2b5c7e575d">Tufao::Url</a>
@@ -295,6 +302,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>HttpServerResponse()
 : <a class="el" href="class_tufao_1_1_http_server_response.html#a97f059bd9322dfe352408830ef1355e4">Tufao::HttpServerResponse</a>
+</li>
+<li>HttpUpgradeRouter()
+: <a class="el" href="class_tufao_1_1_http_upgrade_router.html#aa6bb51d7438b07778873338f4943b6fa">Tufao::HttpUpgradeRouter</a>
 </li>
 <li>httpVersion()
 : <a class="el" href="class_tufao_1_1_http_server_request.html#a640f09f251cc660a839b934f62ec4b12">Tufao::HttpServerRequest</a>
@@ -325,6 +335,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
 <li>map()
 : <a class="el" href="class_tufao_1_1_http_server_request_router.html#a53c5ce95672cb8749fb03e0fa2b55cef">Tufao::HttpServerRequestRouter</a>
+, <a class="el" href="class_tufao_1_1_http_upgrade_router.html#ae160131d9acbcf875951b0d8e5ad863c">Tufao::HttpUpgradeRouter</a>
 </li>
 <li>messagesType()
 : <a class="el" href="class_tufao_1_1_web_socket.html#ac9cbd15a2304ce7247c12cb1ede6ec86">Tufao::WebSocket</a>
@@ -475,6 +486,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>setDir()
 : <a class="el" href="class_tufao_1_1_http_file_server.html#a40bfac5664d4fd56d9ebb5d18354c928">Tufao::HttpFileServer</a>
 </li>
+<li>setHttpUpgradeRouter()
+: <a class="el" href="class_tufao_1_1_http_server.html#a5c8a225fa4f48b7c03ec6095f48d36b1">Tufao::HttpServer</a>
+</li>
 <li>setLocalCertificate()
 : <a class="el" href="class_tufao_1_1_https_server.html#a34a86d4736d37f91547eb6f5ead4f41b">Tufao::HttpsServer</a>
 </li>
@@ -488,8 +502,8 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="class_tufao_1_1_https_server.html#a5552857eccd9d08ed9ef850b1a4d03d3">Tufao::HttpsServer</a>
 </li>
 <li>setProperty()
-: <a class="el" href="class_tufao_1_1_simple_session_store.html#a36c3560ce4a8f44ff7ea779a6f130217">Tufao::SimpleSessionStore</a>
-, <a class="el" href="class_tufao_1_1_session_store.html#a0b8ddedcd27ac09cf7d8e63434fd42b1">Tufao::SessionStore</a>
+: <a class="el" href="class_tufao_1_1_session_store.html#a0b8ddedcd27ac09cf7d8e63434fd42b1">Tufao::SessionStore</a>
+, <a class="el" href="class_tufao_1_1_simple_session_store.html#a36c3560ce4a8f44ff7ea779a6f130217">Tufao::SimpleSessionStore</a>
 </li>
 <li>setRefreshInterval()
 : <a class="el" href="class_tufao_1_1_simple_session_store.html#a06cb7fa9fc6da862d632020e67695750">Tufao::SimpleSessionStore</a>
@@ -498,8 +512,12 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="class_tufao_1_1_session_store.html#a5543907b5032685e26e798aaea65d4f1">Tufao::SessionStore</a>
 </li>
 <li>setTimeout()
-: <a class="el" href="class_tufao_1_1_http_server.html#a87546873151939de576a73f65feb6500">Tufao::HttpServer</a>
-, <a class="el" href="class_tufao_1_1_http_server_request.html#a954a4fd7da320bcda28656558af0bb74">Tufao::HttpServerRequest</a>
+: <a class="el" href="class_tufao_1_1_http_server_request.html#a954a4fd7da320bcda28656558af0bb74">Tufao::HttpServerRequest</a>
+, <a class="el" href="class_tufao_1_1_http_server.html#a87546873151939de576a73f65feb6500">Tufao::HttpServer</a>
+</li>
+<li>setUrl()
+: <a class="el" href="class_tufao_1_1_http_server_request.html#af1ea2c9e9483c5e2cf332ca68e84110b">Tufao::HttpServerRequest</a>
+, <a class="el" href="class_tufao_1_1_url_rewriter_handler.html#a117ce230248d62ac8fd9b08190c5907d">Tufao::UrlRewriterHandler</a>
 </li>
 <li>setValue()
 : <a class="el" href="class_tufao_1_1_session.html#aa9692da4a57c1d6ae5667856ba98e785">Tufao::Session</a>
@@ -536,25 +554,32 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <h3><a class="anchor" id="index_u"></a>- u -</h3><ul>
 <li>unmap()
 : <a class="el" href="class_tufao_1_1_http_server_request_router.html#ae925311ee2ef01cdb044ce1f385d60a7">Tufao::HttpServerRequestRouter</a>
+, <a class="el" href="class_tufao_1_1_http_upgrade_router.html#a7d2cc117d9af4d897c3db0e85566c848">Tufao::HttpUpgradeRouter</a>
+, <a class="el" href="class_tufao_1_1_http_server_request_router.html#a85f30dfb55ba2abb79dd81d47b60848a">Tufao::HttpServerRequestRouter</a>
+, <a class="el" href="class_tufao_1_1_http_upgrade_router.html#a965dca4b7e7c4b296118c2e4339e15ab">Tufao::HttpUpgradeRouter</a>
 </li>
 <li>unsetSession()
 : <a class="el" href="class_tufao_1_1_session_store.html#adba2f35b7644142a6b65c5c5230662c9">Tufao::SessionStore</a>
 </li>
 <li>upgrade()
-: <a class="el" href="class_tufao_1_1_http_server_request.html#a39adde5c969aeb60b95a99fc14580af4">Tufao::HttpServerRequest</a>
-, <a class="el" href="class_tufao_1_1_http_server.html#a955e6bd2c8ba908898529b858cb872de">Tufao::HttpServer</a>
+: <a class="el" href="class_tufao_1_1_http_server.html#a955e6bd2c8ba908898529b858cb872de">Tufao::HttpServer</a>
+, <a class="el" href="class_tufao_1_1_http_server_request.html#a39adde5c969aeb60b95a99fc14580af4">Tufao::HttpServerRequest</a>
+</li>
+<li>url()
+: <a class="el" href="class_tufao_1_1_url_rewriter_handler.html#abec66b7478da49f6470a2350bdf4dab5">Tufao::UrlRewriterHandler</a>
 </li>
 <li>Url()
 : <a class="el" href="class_tufao_1_1_url.html#aff544752a7692dfb04800644b4009c77">Tufao::Url</a>
 </li>
 <li>url()
-: <a class="el" href="class_tufao_1_1_url.html#a0cd741c6c8666a4baf43c5a0e6a0251c">Tufao::Url</a>
+: <a class="el" href="class_tufao_1_1_http_server_request.html#a7f6c36473b6e848a7777f07ca0892a23">Tufao::HttpServerRequest</a>
+, <a class="el" href="class_tufao_1_1_url.html#a0cd741c6c8666a4baf43c5a0e6a0251c">Tufao::Url</a>
 </li>
 <li>Url()
 : <a class="el" href="class_tufao_1_1_url.html#a152b4b60a7a6f35fce164fb070e5aacd">Tufao::Url</a>
 </li>
-<li>url()
-: <a class="el" href="class_tufao_1_1_http_server_request.html#a7f6c36473b6e848a7777f07ca0892a23">Tufao::HttpServerRequest</a>
+<li>UrlRewriterHandler()
+: <a class="el" href="class_tufao_1_1_url_rewriter_handler.html#a4926598add3795ee2c5e86d7b045779b">Tufao::UrlRewriterHandler</a>
 </li>
 <li>userinfo()
 : <a class="el" href="class_tufao_1_1_url.html#a84f3bc6cf47945d68869fff92721acd7">Tufao::Url</a>
@@ -610,6 +635,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <li>~HttpsServer()
 : <a class="el" href="class_tufao_1_1_https_server.html#a96f36a48f46239bb8ad9ff3e44af226b">Tufao::HttpsServer</a>
 </li>
+<li>~HttpUpgradeRouter()
+: <a class="el" href="class_tufao_1_1_http_upgrade_router.html#a0b3b5edc42f9d0691e9e162060062007">Tufao::HttpUpgradeRouter</a>
+</li>
 <li>~SessionStore()
 : <a class="el" href="class_tufao_1_1_session_store.html#ab7b527b9674671d746a7ad402c48073f">Tufao::SessionStore</a>
 </li>
@@ -618,6 +646,9 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 </li>
 <li>~Url()
 : <a class="el" href="class_tufao_1_1_url.html#a98c176a4265859f31b17aa915ee75d7f">Tufao::Url</a>
+</li>
+<li>~UrlRewriterHandler()
+: <a class="el" href="class_tufao_1_1_url_rewriter_handler.html#ad9dd78ecd36d0833f64978f3d074fcf8">Tufao::UrlRewriterHandler</a>
 </li>
 <li>~WebSocket()
 : <a class="el" href="class_tufao_1_1_web_socket.html#a9eccdff472787fb8086bf0181a4fa9ab">Tufao::WebSocket</a>
@@ -628,7 +659,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 5 2013 12:42:32 for tufao by
+    <li class="footer">Generated on Thu Mar 21 2013 15:52:44 for tufao by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

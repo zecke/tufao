@@ -27,7 +27,7 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
@@ -43,7 +43,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "abstracthttpserverrequesthandler_8h_source.html",
-"class_tufao_1_1_web_socket.html#a12e3d6adbdb64974d1ff0ca7e92bc083"
+"class_tufao_1_1_url.html#a152b4b60a7a6f35fce164fb070e5aacd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

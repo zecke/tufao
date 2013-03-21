@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">tufao
-   &#160;<span id="projectnumber">0.5.0</span>
+   &#160;<span id="projectnumber">0.6.0</span>
    </div>
    <div id="projectbrief">An asynchronous web framework for C++ built on top of Qt</div>
   </td>
@@ -126,7 +126,7 @@ $(document).ready(function(){initNavTree('class_tufao_1_1_http_server.html','');
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="class_tufao_1_1_http_server__inherit__graph.png" border="0" usemap="#_tufao_1_1_http_server_inherit__map" alt="Inheritance graph"/></div>
 <map name="_tufao_1_1_http_server_inherit__map" id="_tufao_1_1_http_server_inherit__map">
-<area shape="rect" id="node3" href="class_tufao_1_1_https_server.html" title="Tufao::HttpsServer is a subclass of Tufao::HttpServer that provides secure communication with the cli..." alt="" coords="5,419,163,555"/></map>
+<area shape="rect" id="node3" href="class_tufao_1_1_https_server.html" title="Tufao::HttpsServer is a subclass of Tufao::HttpServer that provides secure communication with the cli..." alt="" coords="13,432,171,568"/></map>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Collaboration diagram for Tufao::HttpServer:</div>
@@ -176,6 +176,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_http_server.html#a812f80b5251faf8c12692a43b5218b06">timeout</a> () const </td></tr>
 <tr class="memdesc:a812f80b5251faf8c12692a43b5218b06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current set timeout. <br/></td></tr>
 <tr class="separator:a812f80b5251faf8c12692a43b5218b06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c8a225fa4f48b7c03ec6095f48d36b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_http_server.html#a5c8a225fa4f48b7c03ec6095f48d36b1">setHttpUpgradeRouter</a> (<a class="el" href="class_tufao_1_1_http_upgrade_router.html">HttpUpgradeRouter</a> *router)</td></tr>
+<tr class="memdesc:a5c8a225fa4f48b7c03ec6095f48d36b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <a class="el" href="class_tufao_1_1_http_upgrade_router.html" title="This class provides a robust and high performance HTTP upgrade router.">HttpUpgradeRouter</a> used to handle HTTP upgrades.  <a href="#a5c8a225fa4f48b7c03ec6095f48d36b1">More...</a><br/></td></tr>
+<tr class="separator:a5c8a225fa4f48b7c03ec6095f48d36b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -475,6 +478,27 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5c8a225fa4f48b7c03ec6095f48d36b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Tufao::HttpServer::setHttpUpgradeRouter </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_tufao_1_1_http_upgrade_router.html">HttpUpgradeRouter</a> *&#160;</td>
+          <td class="paramname"><em>router</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the <a class="el" href="class_tufao_1_1_http_upgrade_router.html" title="This class provides a robust and high performance HTTP upgrade router.">HttpUpgradeRouter</a> used to handle HTTP upgrades. </p>
+<p>The default behaviour is use none routers to handle HTTP upgrades. If you add any router, then the default behaviour will be to use this router, but the default behaviour still can be changed if you override the upgrade method.</p>
+<dl class="section note"><dt>Note</dt><dd>If you pass NULL as argument, any previous configured router will be forgotten and not used anymore.</dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.6 </dd></dl>
+
+</div>
+</div>
 <a class="anchor" id="a87546873151939de576a73f65feb6500"></a>
 <div class="memitem">
 <div class="memproto">
@@ -529,7 +553,7 @@ Protected Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This virtual function is called by <a class="el" href="class_tufao_1_1_http_server.html" title="The Tufao::HttpServer class provides an implementation of the HTTP protocol.">HttpServer</a> when a client requests a http upgrade. </p>
-<p>The base implementation closes the connection.</p>
+<p>The base implementation closes the connection if no upgrade router is configured or the upgrade router isn't able to handle the request.</p>
 <p>Reimplement this function to alter the server's behavior when a http upgrade is requested.</p>
 <dl class="section note"><dt>Note</dt><dd>After this function returns, the <code>request</code> object is deleted.</dd>
 <dd>
@@ -546,7 +570,7 @@ The connection object associated with <code>request</code> (<a class="el" href="
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tufao.html">Tufao</a></li><li class="navelem"><a class="el" href="class_tufao_1_1_http_server.html">HttpServer</a></li>
-    <li class="footer">Generated on Tue Mar 5 2013 12:42:32 for tufao by
+    <li class="footer">Generated on Thu Mar 21 2013 15:52:44 for tufao by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>
