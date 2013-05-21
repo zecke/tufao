@@ -131,8 +131,7 @@ var NAVTREEINDEX0 =
 "class_tufao_1_1_i_byte_array.html#a9a0be889c8c6eb804d66639853341c3d":[5,0,0,13,4],
 "class_tufao_1_1_i_byte_array.html#ab76d6a4d6b36ef3c6a67294dfdfa2974":[5,0,0,13,3],
 "class_tufao_1_1_i_byte_array.html#abb9fab55d0c7b0b308d42dca863900c6":[5,0,0,13,0],
-"class_tufao_1_1_i_byte_array.html#ad325d1dd6ca91da99db69b88c75505c7":[5,0,0,13,6],
-"class_tufao_1_1_i_byte_array.html#ae49daafff030d4c34c33b7463d108675":[5,0,0,13,5],
+"class_tufao_1_1_i_byte_array.html#ad325d1dd6ca91da99db69b88c75505c7":[5,0,0,13,5],
 "class_tufao_1_1_not_found_handler.html":[5,0,0,14],
 "class_tufao_1_1_not_found_handler.html#a51d572ff8e0d4a555c78f405bd4284f9":[5,0,0,14,1],
 "class_tufao_1_1_not_found_handler.html#ad8e70d324c33173c2f1ab8bae113bb8b":[5,0,0,14,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX0 =
 "pages.html":[],
 "pluginsystem.html":[2],
 "pluginsystem.html#plugin-config":[2,0,2],
-"pluginsystem.html#plugin-hello":[2,0]
+"pluginsystem.html#plugin-hello":[2,0],
+"pluginsystem.html#plugin-pluginserver":[2,0,0]
 };

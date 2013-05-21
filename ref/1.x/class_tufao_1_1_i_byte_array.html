@@ -150,9 +150,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a0be889c8c6eb804d66639853341c3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9a0be889c8c6eb804d66639853341c3d"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>IByteArray</b> (int size, char ch)</td></tr>
 <tr class="separator:a9a0be889c8c6eb804d66639853341c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae49daafff030d4c34c33b7463d108675"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae49daafff030d4c34c33b7463d108675"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>operator QByteArray</b> () const </td></tr>
-<tr class="separator:ae49daafff030d4c34c33b7463d108675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad325d1dd6ca91da99db69b88c75505c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad325d1dd6ca91da99db69b88c75505c7"></a>
 <a class="el" href="class_tufao_1_1_i_byte_array.html">IByteArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const QByteArray &amp;ba)</td></tr>
 <tr class="separator:ad325d1dd6ca91da99db69b88c75505c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -168,6 +165,8 @@ Public Member Functions</h2></td></tr>
 <li>operator &gt;</li>
 <li>operator &gt;=</li>
 </ul>
+<dl class="section note"><dt>Note</dt><dd>Use of overloaded operator '&lt;' is intentionally ambiguous when you combine <a class="el" href="class_tufao_1_1_i_byte_array.html" title="This class provides a case insensitive QByteArray.">IByteArray</a> and const char *. This design forces you to make your intent explicit using explicit casts.</dd></dl>
+<dl class="section user"><dt></dt><dd></dd></dl>
 <dl class="section note"><dt>Note</dt><dd>All member functions of this class are inlined and should add the minimum (if any) of overhead. </dd></dl>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="ibytearray_8h_source.html">ibytearray.h</a></li>
@@ -178,7 +177,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tufao.html">Tufao</a></li><li class="navelem"><a class="el" href="class_tufao_1_1_i_byte_array.html">IByteArray</a></li>
-    <li class="footer">Generated on Sat Apr 13 2013 21:24:23 for tufao by
+    <li class="footer">Generated on Tue May 21 2013 04:58:20 for tufao by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.3.1 </li>
   </ul>

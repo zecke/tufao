@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"pluginsystem.html#plugin-pluginserver":[2,0,0],
 "pluginsystem.html#plugin-user":[2,0,1],
 "pluginsystem_8h_source.html":[6,0,16],
 "safe-signal.html":[3],

@@ -5,6 +5,5 @@ var class_tufao_1_1_i_byte_array =
     [ "IByteArray", "class_tufao_1_1_i_byte_array.html#a3c494c3493db73eac3dd58cb58aaa7ea", null ],
     [ "IByteArray", "class_tufao_1_1_i_byte_array.html#ab76d6a4d6b36ef3c6a67294dfdfa2974", null ],
     [ "IByteArray", "class_tufao_1_1_i_byte_array.html#a9a0be889c8c6eb804d66639853341c3d", null ],
-    [ "operator QByteArray", "class_tufao_1_1_i_byte_array.html#ae49daafff030d4c34c33b7463d108675", null ],
     [ "operator=", "class_tufao_1_1_i_byte_array.html#ad325d1dd6ca91da99db69b88c75505c7", null ]
 ];

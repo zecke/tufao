@@ -54,7 +54,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "abstracthttpserverrequesthandler_8h_source.html",
-"pluginsystem.html#plugin-pluginserver"
+"pluginsystem.html#plugin-user"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
