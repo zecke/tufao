@@ -14,6 +14,10 @@ var NAVTREE =
         [ "tufao-routes-editor", "pluginsystem.html#plugin-editor", null ]
       ] ]
     ] ],
+    [ "Safe signals", "safe-signal.html", [
+      [ "Why some signals are unsafe", "safe-signal.html#safe-signal-impossible", null ],
+      [ "Conclusion", "safe-signal.html#safe-signal-conclusion", null ]
+    ] ],
     [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.html", "namespaces" ],

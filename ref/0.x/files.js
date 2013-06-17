@@ -17,6 +17,7 @@ var files =
     [ "main.h", "main_8h_source.html", null ],
     [ "pluginsystem.h", "pluginsystem_8h_source.html", null ],
     [ "querystring.h", "querystring_8h_source.html", null ],
+    [ "safe-signal.h", "safe-signal_8h_source.html", null ],
     [ "session.h", "session_8h_source.html", null ],
     [ "sessionsettings.h", "sessionsettings_8h_source.html", null ],
     [ "sessionstore.h", "sessionstore_8h_source.html", null ],

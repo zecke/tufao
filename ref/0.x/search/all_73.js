@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['safe_20signals',['Safe signals',['../safe-signal.html',1,'']]],
   ['scheme',['scheme',['../class_tufao_1_1_url.html#a49353f8afb0d04cb3410d0b60471b059',1,'Tufao::Url']]],
   ['secure',['secure',['../struct_tufao_1_1_session_settings.html#a5a083ba2e6a935bdaed1c6a0ea0af4b3',1,'Tufao::SessionSettings']]],
   ['sendbinarymessage',['sendBinaryMessage',['../class_tufao_1_1_web_socket.html#a99f63d9b119089dcecabae8c4c42c27a',1,'Tufao::WebSocket']]],
