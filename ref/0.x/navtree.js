@@ -47,7 +47,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "abstracthttpserverrequesthandler_8h_source.html",
-"class_tufao_1_1_url.html#a152b4b60a7a6f35fce164fb070e5aacd"
+"class_tufao_1_1_simple_session_store.html#ac53edd824fd7e0a12114e31d4e8101b6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

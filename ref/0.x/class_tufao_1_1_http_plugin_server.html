@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">tufao
-   &#160;<span id="projectnumber">0.6.1</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">An asynchronous web framework for C++ built on top of Qt</div>
   </td>
@@ -155,13 +155,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a70f925278e7b454076cfaca70d4ae700"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_http_plugin_server.html#a70f925278e7b454076cfaca70d4ae700">HttpPluginServer</a> (const QString &amp;configFile=QString(), QObject *parent=0)</td></tr>
 <tr class="memdesc:a70f925278e7b454076cfaca70d4ae700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a> object.  <a href="#a70f925278e7b454076cfaca70d4ae700">More...</a><br/></td></tr>
 <tr class="separator:a70f925278e7b454076cfaca70d4ae700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8614d89c7e0454493816aa172337936"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_http_plugin_server.html#ad8614d89c7e0454493816aa172337936">HttpPluginServer</a> (const QString &amp;configFile, bool autoreload, QObject *parent=0)</td></tr>
+<tr class="memdesc:ad8614d89c7e0454493816aa172337936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a> object.  <a href="#ad8614d89c7e0454493816aa172337936">More...</a><br/></td></tr>
+<tr class="separator:ad8614d89c7e0454493816aa172337936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f3bb3f91b42a8132bb03ffc3b209347"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0f3bb3f91b42a8132bb03ffc3b209347"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_http_plugin_server.html#a0f3bb3f91b42a8132bb03ffc3b209347">~HttpPluginServer</a> ()</td></tr>
 <tr class="memdesc:a0f3bb3f91b42a8132bb03ffc3b209347"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the object. <br/></td></tr>
 <tr class="separator:a0f3bb3f91b42a8132bb03ffc3b209347"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5aed6514eaad1ad6dc9ada47ff20d6a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_http_plugin_server.html#ad5aed6514eaad1ad6dc9ada47ff20d6a">setConfig</a> (const QString &amp;file)</td></tr>
-<tr class="memdesc:ad5aed6514eaad1ad6dc9ada47ff20d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the configuration file used to handle requests.  <a href="#ad5aed6514eaad1ad6dc9ada47ff20d6a">More...</a><br/></td></tr>
+<tr class="memdesc:ad5aed6514eaad1ad6dc9ada47ff20d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an overloaded function.  <a href="#ad5aed6514eaad1ad6dc9ada47ff20d6a">More...</a><br/></td></tr>
 <tr class="separator:ad5aed6514eaad1ad6dc9ada47ff20d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92772342a614c009793968f7e5bfb826"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_http_plugin_server.html#a92772342a614c009793968f7e5bfb826">setConfig</a> (const QString &amp;file, bool autoreload)</td></tr>
+<tr class="memdesc:a92772342a614c009793968f7e5bfb826"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the configuration file used to handle requests.  <a href="#a92772342a614c009793968f7e5bfb826">More...</a><br/></td></tr>
+<tr class="separator:a92772342a614c009793968f7e5bfb826"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c1c5e33bb60c966bb129d30b137aa8a"><td class="memItemLeft" align="right" valign="top">QString&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_http_plugin_server.html#a4c1c5e33bb60c966bb129d30b137aa8a">config</a> () const </td></tr>
 <tr class="memdesc:a4c1c5e33bb60c966bb129d30b137aa8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the current used configuration file.  <a href="#a4c1c5e33bb60c966bb129d30b137aa8a">More...</a><br/></td></tr>
 <tr class="separator:a4c1c5e33bb60c966bb129d30b137aa8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,7 +182,7 @@ Public Member Functions</h2></td></tr>
 <p>Use it if you need to change the running server code without need to restart the appplication.</p>
 <p>It maintains its own set of rules and is as powerful as <a class="el" href="class_tufao_1_1_http_server_request_router.html" title="This class provides a robust and high performance HTTP request router. ">HttpServerRequestRouter</a> (and internally uses it), but, in contrast, exports its configuration through a file and will use handlers loaded from plugins.</p>
 <p>The file use a syntax based on the QSettings ini format and can edit it using tufao-routes-editor.</p>
-<dl class="section note"><dt>Note</dt><dd>Besides being able to change its list of plugins at runtime, it can't know when the configuration file changes and you'll need to invoke the <a class="el" href="class_tufao_1_1_http_plugin_server.html#a89126030e44c7996287b969cbed68036" title="Clear all previous mappings and reload all rules and plugins. ">HttpPluginServer::reloadConfig</a> to notify this event.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If you want to control when the plugins are reloaded, you must ensure that autoreload is false and explicitly call the slot <a class="el" href="class_tufao_1_1_http_plugin_server.html#a89126030e44c7996287b969cbed68036" title="Clear all previous mappings and reload all rules and plugins. ">HttpPluginServer::reloadConfig</a>.</dd></dl>
 <dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_tufao_1_1_abstract_http_server_request_handler_factory.html" title="This class provides an factory interface to create AbstractHttpServerRequestHandler objects...">AbstractHttpServerRequestHandlerFactory</a> to implement your plugins.</dd>
 <dd>
 <a class="el" href="pluginsystem.html">Tufão's plugin system</a></dd></dl>
@@ -215,8 +221,65 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructs a <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a> object. </p>
-<p><code>parent</code> is passed to the QObject constructor.</p>
-<p><code>configFile</code> is used as configuration file. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">configFile</td><td>It's used as configuration file.</td></tr>
+    <tr><td class="paramname">parent</td><td>It's passed to the QObject constructor.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section warning"><dt>Warning</dt><dd>The object created by this constructor doesn't autoreload the config file when it changes. You can use another constructor or call <a class="el" href="class_tufao_1_1_http_plugin_server.html#ad5aed6514eaad1ad6dc9ada47ff20d6a" title="This is an overloaded function. ">HttpPluginServer::setConfig</a> if you want a different behaviour. </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ad8614d89c7e0454493816aa172337936"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Tufao::HttpPluginServer::HttpPluginServer </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>configFile</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>autoreload</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a> object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">configFile</td><td>It's used as configuration file.</td></tr>
+    <tr><td class="paramname">autoreload</td><td>Whether <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a> will autoreload the config file when it is modified.</td></tr>
+    <tr><td class="paramname">parent</td><td>It's passed to the QObject constructor.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section since"><dt>Since</dt><dd>0.8 </dd></dl>
 
 </div>
 </div>
@@ -261,7 +324,8 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Clear all previous mappings and reload all rules and plugins. </p>
-<p>Call this function after change the configuration file to the changes take effect. </p>
+<p>If you want to control when the plugins are reloaded, you must ensure that autoreload is false and explicitly call this slot when you want to make the changes of the config file take effect.</p>
+<p>This is an advanced use of <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a> and you probably just want to ensure autoreload is true to avoid unnecessary complexities. </p>
 
 </div>
 </div>
@@ -279,9 +343,40 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is an overloaded function. </p>
+<p>It will <b>NOT</b> autoreload the config referenced by <code>file</code>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a92772342a614c009793968f7e5bfb826"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Tufao::HttpPluginServer::setConfig </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>autoreload</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p>Set the configuration file used to handle requests. </p>
 <p>Call this function will reload the configuration.</p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_tufao_1_1_http_plugin_server.html#a4c1c5e33bb60c966bb129d30b137aa8a" title="Return the current used configuration file. ">config</a> </dd></dl>
+<p><code>autoreload</code> tells whether <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a> should autoreload the config file when it is modified.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_tufao_1_1_http_plugin_server.html#a4c1c5e33bb60c966bb129d30b137aa8a" title="Return the current used configuration file. ">config</a></dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.8 </dd></dl>
 
 </div>
 </div>
@@ -294,7 +389,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tufao.html">Tufao</a></li><li class="navelem"><a class="el" href="class_tufao_1_1_http_plugin_server.html">HttpPluginServer</a></li>
-    <li class="footer">Generated on Mon Jun 17 2013 05:20:29 for tufao by
+    <li class="footer">Generated on Sun Jun 30 2013 06:08:03 for tufao by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

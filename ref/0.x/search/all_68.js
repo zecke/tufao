@@ -14,7 +14,7 @@ var searchData=
   ['httpfileserver',['HttpFileServer',['../class_tufao_1_1_http_file_server.html#afeddbd1d4b63a7c23c036b3c3281e2f7',1,'Tufao::HttpFileServer']]],
   ['httpfileserver',['HttpFileServer',['../class_tufao_1_1_http_file_server.html',1,'Tufao']]],
   ['httponly',['httpOnly',['../struct_tufao_1_1_session_settings.html#a6e9023370427916e0c69b1ed9417feac',1,'Tufao::SessionSettings']]],
-  ['httppluginserver',['HttpPluginServer',['../class_tufao_1_1_http_plugin_server.html#a70f925278e7b454076cfaca70d4ae700',1,'Tufao::HttpPluginServer']]],
+  ['httppluginserver',['HttpPluginServer',['../class_tufao_1_1_http_plugin_server.html#a70f925278e7b454076cfaca70d4ae700',1,'Tufao::HttpPluginServer::HttpPluginServer(const QString &amp;configFile=QString(), QObject *parent=0)'],['../class_tufao_1_1_http_plugin_server.html#ad8614d89c7e0454493816aa172337936',1,'Tufao::HttpPluginServer::HttpPluginServer(const QString &amp;configFile, bool autoreload, QObject *parent=0)']]],
   ['httppluginserver',['HttpPluginServer',['../class_tufao_1_1_http_plugin_server.html',1,'Tufao']]],
   ['httpserver',['HttpServer',['../class_tufao_1_1_http_server.html',1,'Tufao']]],
   ['httpserver',['HttpServer',['../class_tufao_1_1_http_server.html#a05a1a5a18b907a4a30c21ef89b369d3d',1,'Tufao::HttpServer']]],

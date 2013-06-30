@@ -32,6 +32,7 @@ var class_tufao_1_1_web_socket =
     [ "connectToHost", "class_tufao_1_1_web_socket.html#ad2933a392b1da5147f3d2e2ae8e8861a", null ],
     [ "connectToHost", "class_tufao_1_1_web_socket.html#adf4a5255f5e1478a4d231544dbe9f9d7", null ],
     [ "connectToHost", "class_tufao_1_1_web_socket.html#aba220de8397177bb45461bbdc797a50b", null ],
+    [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#ad82090147daacd3af9687153804195d9", null ],
     [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#a4f7f5282ccbe8a8b4c7a70a14a114bfc", null ],
     [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#a6c404218cb22502bfe01115aed655763", null ],
     [ "connectToHostEncrypted", "class_tufao_1_1_web_socket.html#a6ca7eaee06859ab9a2c71de449d40185", null ],

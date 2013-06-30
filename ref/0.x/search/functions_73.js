@@ -9,7 +9,7 @@ var searchData=
   ['session',['session',['../class_tufao_1_1_session_store.html#a7d4c9204e95689c0d3fc2575b66e32cd',1,'Tufao::SessionStore::session(const HttpServerRequest &amp;request) const '],['../class_tufao_1_1_session_store.html#ace3bbf8b4c7bd6b9b8f8c2902956a4ac',1,'Tufao::SessionStore::session(const HttpServerRequest &amp;request, const HttpServerResponse &amp;response) const '],['../class_tufao_1_1_session.html#a05f8d1d82f5418a77123a13a510cf576',1,'Tufao::Session::Session()']]],
   ['sessionstore',['SessionStore',['../class_tufao_1_1_session_store.html#a6579b0f8477362b007c82446be40b93e',1,'Tufao::SessionStore']]],
   ['setbuffersize',['setBufferSize',['../class_tufao_1_1_http_file_server.html#a3d09e6e721e145b0a3a93128d39d4ac0',1,'Tufao::HttpFileServer']]],
-  ['setconfig',['setConfig',['../class_tufao_1_1_http_plugin_server.html#ad5aed6514eaad1ad6dc9ada47ff20d6a',1,'Tufao::HttpPluginServer']]],
+  ['setconfig',['setConfig',['../class_tufao_1_1_http_plugin_server.html#ad5aed6514eaad1ad6dc9ada47ff20d6a',1,'Tufao::HttpPluginServer::setConfig(const QString &amp;file)'],['../class_tufao_1_1_http_plugin_server.html#a92772342a614c009793968f7e5bfb826',1,'Tufao::HttpPluginServer::setConfig(const QString &amp;file, bool autoreload)']]],
   ['setdir',['setDir',['../class_tufao_1_1_http_file_server.html#a40bfac5664d4fd56d9ebb5d18354c928',1,'Tufao::HttpFileServer']]],
   ['sethttpupgraderouter',['setHttpUpgradeRouter',['../class_tufao_1_1_http_server.html#a5c8a225fa4f48b7c03ec6095f48d36b1',1,'Tufao::HttpServer']]],
   ['setlocalcertificate',['setLocalCertificate',['../class_tufao_1_1_https_server.html#a34a86d4736d37f91547eb6f5ead4f41b',1,'Tufao::HttpsServer']]],

@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">tufao
-   &#160;<span id="projectnumber">0.6.1</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">An asynchronous web framework for C++ built on top of Qt</div>
   </td>
@@ -121,8 +121,6 @@ The Tufao::HttpPluginServer class</h2>
 <p>The <a class="el" href="class_tufao_1_1_http_server_request_router.html" title="This class provides a robust and high performance HTTP request router. ">Tufao::HttpServerRequestRouter</a> provides a robust request router interface and would be useful if we could tell it to use a plugin located in the file system as a handler. This is where <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">Tufao::HttpPluginServer</a> enters.</p>
 <p><a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">Tufao::HttpPluginServer</a> implements the <a class="el" href="class_tufao_1_1_abstract_http_server_request_handler.html" title="This class provides an interface for HttpServerRequest handlers. ">Tufao::AbstractHttpServerRequestHandler</a> interface, then you can use it as a handler in <a class="el" href="class_tufao_1_1_http_server_request_router.html" title="This class provides a robust and high performance HTTP request router. ">Tufao::HttpServerRequestRouter</a>. <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">Tufao::HttpPluginServer</a> has its own set of mapping rules and handlers, but it will load its handlers from plugins.</p>
 <p>In the plugin server created previously, we pass a file in the constructor. This is how we set the plugins from <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">Tufao::HttpPluginServer</a>. This file can be edited using the tufao-routes-editor tool (see <a class="el" href="pluginsystem.html#plugin-editor">tufao-routes-editor</a>).</p>
-<p>One limitation of <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">Tufao::HttpPluginServer</a> is it that don't know when reload the routes file. The Tufão team could add this feature, but this would make Tufão less portable. If the Qt framework add the needed API, the Tufão team will use it. Until then, you'll need to tell <a class="el" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">Tufao::HttpPluginServer</a> when to reload the config file. This is done invoking the <a class="el" href="class_tufao_1_1_http_plugin_server.html#a89126030e44c7996287b969cbed68036" title="Clear all previous mappings and reload all rules and plugins. ">Tufao::HttpPluginServer::reloadConfig</a> slot.</p>
-<p>In the previous application, we create a custom handler to invoke the <a class="el" href="class_tufao_1_1_http_plugin_server.html#a89126030e44c7996287b969cbed68036" title="Clear all previous mappings and reload all rules and plugins. ">Tufao::HttpPluginServer::reloadConfig</a>. We could use a timer, but it may cause some troubles in some cases.</p>
 <h2><a class="anchor" id="plugin-user"></a>
 The plugin</h2>
 <div class="image">
@@ -153,7 +151,6 @@ tufao-routes-editor</h2>
 <p>The only thing missing here is tell the application to use the plugin we created. To do that, we need:</p>
 <ul>
 <li>Edit the config file used by the plugin server of our application. In the previous application, this file is any file named <em>routes.conf</em> placed in the application's working dir.</li>
-<li>Make the application reload its plugins, if the application was already running. In the previous application, this is can be done by creating, from the same host as the application, a request to the page "/reload" (<a href="http://localhost:8080/reload">http://localhost:8080/reload</a>).</li>
 </ul>
 <div class="image">
 <img src="routes_editor.png" alt="routes_editor.png"/>
@@ -165,7 +162,7 @@ tufao-routes-editor tool</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jun 17 2013 05:20:29 for tufao by
+    <li class="footer">Generated on Sun Jun 30 2013 06:08:03 for tufao by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

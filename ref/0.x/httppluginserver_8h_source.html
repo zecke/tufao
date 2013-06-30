@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">tufao
-   &#160;<span id="projectnumber">0.6.1</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">An asynchronous web framework for C++ built on top of Qt</div>
   </td>
@@ -140,39 +140,47 @@ $(document).ready(function(){initNavTree('httppluginserver_8h_source.html','');}
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    Q_OBJECT</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a>(<span class="keyword">const</span> QString &amp;configFile = QString(),</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                              QObject *parent = 0);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    ~<a class="code" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a>();</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a>(<span class="keyword">const</span> QString &amp;configFile = QString(),</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                              QObject *parent = 0);</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">void</span> setConfig(<span class="keyword">const</span> QString &amp;file);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    QString config() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="keyword">public</span> slots:</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">bool</span> handleRequest(<a class="code" href="class_tufao_1_1_http_server_request.html" title="The Tufao::HttpServer represents a HTTP request received by Tufao::HttpServer. ">Tufao::HttpServerRequest</a> *request,</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                       <a class="code" href="class_tufao_1_1_http_server_response.html" title="The Tufao::HttpServerResponse is used to respond to a Tufao::HttpServerRequest. ">Tufao::HttpServerResponse</a> *response,</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                       <span class="keyword">const</span> QStringList &amp;args = QStringList());</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordtype">void</span> reloadConfig();</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordtype">void</span> clear();</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keyword">struct </span>Priv;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    Priv *priv;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;};</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;} <span class="comment">// namespace Tufao</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#endif // TUFAO_HTTPPLUGINSERVER_H</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a>(<span class="keyword">const</span> QString &amp;configFile, <span class="keywordtype">bool</span> autoreload,</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                              QObject *parent = 0);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    ~<a class="code" href="class_tufao_1_1_http_plugin_server.html" title="This class provides a plugin-based request handler. ">HttpPluginServer</a>();</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">void</span> setConfig(<span class="keyword">const</span> QString &amp;file);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordtype">void</span> setConfig(<span class="keyword">const</span> QString &amp;file, <span class="keywordtype">bool</span> autoreload);</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    QString config() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="keyword">public</span> slots:</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordtype">bool</span> handleRequest(<a class="code" href="class_tufao_1_1_http_server_request.html" title="The Tufao::HttpServer represents a HTTP request received by Tufao::HttpServer. ">Tufao::HttpServerRequest</a> *request,</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                       <a class="code" href="class_tufao_1_1_http_server_response.html" title="The Tufao::HttpServerResponse is used to respond to a Tufao::HttpServerRequest. ">Tufao::HttpServerResponse</a> *response,</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                       <span class="keyword">const</span> QStringList &amp;args = QStringList());</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordtype">void</span> reloadConfig();</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="keyword">private</span> slots:</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordtype">void</span> onConfigFileChanged();</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordtype">void</span> clear();</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keyword">struct </span>Priv;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    Priv *priv;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;};</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;} <span class="comment">// namespace Tufao</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="preprocessor">#endif // TUFAO_HTTPPLUGINSERVER_H</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_23c6b5f1ddf7c7237876863704697572.html">tufao</a></li><li class="navelem"><a class="el" href="dir_3409a6bd6b27f8f065f7d6f23639058e.html">src</a></li><li class="navelem"><b>httppluginserver.h</b></li>
-    <li class="footer">Generated on Mon Jun 17 2013 05:20:28 for tufao by
+    <li class="footer">Generated on Sun Jun 30 2013 06:08:03 for tufao by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>

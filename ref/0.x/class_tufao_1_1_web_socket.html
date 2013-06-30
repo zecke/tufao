@@ -30,7 +30,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">tufao
-   &#160;<span id="projectnumber">0.6.1</span>
+   &#160;<span id="projectnumber">0.8.0</span>
    </div>
    <div id="projectbrief">An asynchronous web framework for C++ built on top of Qt</div>
   </td>
@@ -241,8 +241,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba220de8397177bb45461bbdc797a50b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_web_socket.html#aba220de8397177bb45461bbdc797a50b">connectToHost</a> (const QString &amp;hostname, const QByteArray &amp;resource, const <a class="el" href="struct_tufao_1_1_headers.html">Headers</a> &amp;headers=<a class="el" href="struct_tufao_1_1_headers.html">Headers</a>())</td></tr>
 <tr class="memdesc:aba220de8397177bb45461bbdc797a50b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an overloaded function.  <a href="#aba220de8397177bb45461bbdc797a50b">More...</a><br/></td></tr>
 <tr class="separator:aba220de8397177bb45461bbdc797a50b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f7f5282ccbe8a8b4c7a70a14a114bfc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_web_socket.html#a4f7f5282ccbe8a8b4c7a70a14a114bfc">connectToHostEncrypted</a> (const QString &amp;hostname, quint16 port, const QByteArray &amp;resource, const <a class="el" href="struct_tufao_1_1_headers.html">Headers</a> &amp;headers=<a class="el" href="struct_tufao_1_1_headers.html">Headers</a>())</td></tr>
-<tr class="memdesc:a4f7f5282ccbe8a8b4c7a70a14a114bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The same as <a class="el" href="class_tufao_1_1_web_socket.html#a21d6e347b17b28e2a7dd4d1eeb34372c" title="Execute the steps to establish a WebSocket connection with the server represented by address and port...">WebSocket::connectToHost</a>, but uses a TLS connection.  <a href="#a4f7f5282ccbe8a8b4c7a70a14a114bfc">More...</a><br/></td></tr>
+<tr class="memitem:ad82090147daacd3af9687153804195d9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_web_socket.html#ad82090147daacd3af9687153804195d9">connectToHostEncrypted</a> (const QString &amp;hostname, quint16 port, const QByteArray &amp;resource, const <a class="el" href="struct_tufao_1_1_headers.html">Headers</a> &amp;headers, const QList&lt; QSslError &gt; &amp;ignoredSslErrors)</td></tr>
+<tr class="memdesc:ad82090147daacd3af9687153804195d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The same as <a class="el" href="class_tufao_1_1_web_socket.html#a21d6e347b17b28e2a7dd4d1eeb34372c" title="Execute the steps to establish a WebSocket connection with the server represented by address and port...">WebSocket::connectToHost</a>, but uses a TLS connection.  <a href="#ad82090147daacd3af9687153804195d9">More...</a><br/></td></tr>
+<tr class="separator:ad82090147daacd3af9687153804195d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f7f5282ccbe8a8b4c7a70a14a114bfc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4f7f5282ccbe8a8b4c7a70a14a114bfc"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_web_socket.html#a4f7f5282ccbe8a8b4c7a70a14a114bfc">connectToHostEncrypted</a> (const QString &amp;hostname, quint16 port, const QByteArray &amp;resource, const <a class="el" href="struct_tufao_1_1_headers.html">Headers</a> &amp;headers=<a class="el" href="struct_tufao_1_1_headers.html">Headers</a>())</td></tr>
+<tr class="memdesc:a4f7f5282ccbe8a8b4c7a70a14a114bfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an overloaded function. <br/></td></tr>
 <tr class="separator:a4f7f5282ccbe8a8b4c7a70a14a114bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c404218cb22502bfe01115aed655763"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_tufao_1_1_web_socket.html#a6c404218cb22502bfe01115aed655763">connectToHostEncrypted</a> (const QString &amp;hostname, const QByteArray &amp;resource, const <a class="el" href="struct_tufao_1_1_headers.html">Headers</a> &amp;headers=<a class="el" href="struct_tufao_1_1_headers.html">Headers</a>())</td></tr>
 <tr class="memdesc:a6c404218cb22502bfe01115aed655763"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is an overloaded function.  <a href="#a6c404218cb22502bfe01115aed655763">More...</a><br/></td></tr>
@@ -616,7 +620,7 @@ If the object fail to establish a connection, it will emit disconnected signal. 
 
 </div>
 </div>
-<a class="anchor" id="a4f7f5282ccbe8a8b4c7a70a14a114bfc"></a>
+<a class="anchor" id="ad82090147daacd3af9687153804195d9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -642,7 +646,13 @@ If the object fail to establish a connection, it will emit disconnected signal. 
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="struct_tufao_1_1_headers.html">Headers</a> &amp;&#160;</td>
-          <td class="paramname"><em>headers</em> = <code><a class="el" href="struct_tufao_1_1_headers.html">Headers</a>()</code>&#160;</td>
+          <td class="paramname"><em>headers</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const QList&lt; QSslError &gt; &amp;&#160;</td>
+          <td class="paramname"><em>ignoredSslErrors</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -653,7 +663,9 @@ If the object fail to establish a connection, it will emit disconnected signal. 
 </div><div class="memdoc">
 
 <p>The same as <a class="el" href="class_tufao_1_1_web_socket.html#a21d6e347b17b28e2a7dd4d1eeb34372c" title="Execute the steps to establish a WebSocket connection with the server represented by address and port...">WebSocket::connectToHost</a>, but uses a TLS connection. </p>
-<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_tufao_1_1_web_socket.html#a21d6e347b17b28e2a7dd4d1eeb34372c" title="Execute the steps to establish a WebSocket connection with the server represented by address and port...">Tufao::WebSocket::connectToHost</a> </dd></dl>
+<p><code>ignoredSslErrors</code> is passed to QSslSocket::ignoreSslErrors.</p>
+<dl class="section see"><dt>See Also</dt><dd><a class="el" href="class_tufao_1_1_web_socket.html#a21d6e347b17b28e2a7dd4d1eeb34372c" title="Execute the steps to establish a WebSocket connection with the server represented by address and port...">Tufao::WebSocket::connectToHost</a></dd></dl>
+<dl class="section since"><dt>Since</dt><dd>0.7 </dd></dl>
 
 </div>
 </div>
@@ -1025,7 +1037,7 @@ The default value is BINARY_MESSAGE </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_tufao.html">Tufao</a></li><li class="navelem"><a class="el" href="class_tufao_1_1_web_socket.html">WebSocket</a></li>
-    <li class="footer">Generated on Mon Jun 17 2013 05:20:29 for tufao by
+    <li class="footer">Generated on Sun Jun 30 2013 06:08:04 for tufao by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.4 </li>
   </ul>
