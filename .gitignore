@@ -1,3 +1,5 @@
 build
 *.pro.user
 CMakeLists.txt.user
+moc_*
+tufao1_automoc.cpp

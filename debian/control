@@ -1,0 +1,30 @@
+Source: tufao
+Priority: extra
+Maintainer: Holger Hans Peter Freyther <holger@freyther.de>
+Build-Depends: debhelper (>= 8.0.0), cmake, qt5-default
+Standards-Version: 3.9.4
+Section: libs
+Homepage: https://github.com/vinipsmaker/tufao
+#Vcs-Git: git://git.debian.org/collab-maint/tufao.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/tufao.git;a=summary
+
+Package: libtufao-dev
+Section: libdevel
+Architecture: any
+Depends: tufao1 (= ${binary:Version})
+Description: HTTP Stack
+ HTTP Stack
+
+Package: libtufao1
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: HTTP Stack
+ HTTP Stack
+
+Package: libtufao1-dbg
+Section: debug
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: HTTP Stack debug packages
+ HTTP Stack
